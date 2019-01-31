@@ -122,7 +122,7 @@ public class lv3 extends grupLvl
         addObject(lantai414,582,397);
         
         doorlv3 doorlv3 = new doorlv3();
-        addObject(doorlv3,910,60);
+        addObject(doorlv3,910,45);
 
         
     }
