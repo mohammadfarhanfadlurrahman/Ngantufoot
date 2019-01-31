@@ -62,7 +62,7 @@ public class lv2 extends grupLvl
         addObject(lantai3,744,353);
 
         doorlv2 doorlv2 = new doorlv2();
-        addObject(doorlv2,911,478);
+        addObject(doorlv2,911,465);
 
         hantu hantu = new hantu();
         addObject(hantu,463,38);

@@ -51,7 +51,7 @@ public class lv4 extends grupLvl
         addObject(lantai,470,153);
 
         doorlv4 doorlv4 = new doorlv4();
-        addObject(doorlv4,61,499);
+        addObject(doorlv4,61,470);
 
         bergerak bergerak = new bergerak();
         addObject(bergerak,209,575);

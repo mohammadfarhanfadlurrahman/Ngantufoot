@@ -54,7 +54,6 @@ public class cong2 extends treespawn2
         if(framecong == 30)
         {
             setImage(r4);
-            framecong = 0;
         }
         if(framecong == 40)
         {

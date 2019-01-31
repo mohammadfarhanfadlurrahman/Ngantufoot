@@ -87,9 +87,7 @@ public class lv3 extends grupLvl
         lantai2 lantai2 = new lantai2();
         addObject(lantai2,680,424);
 
-        doorlv3 doorlv3 = new doorlv3();
-        addObject(doorlv3,910,60);
-
+        
         lantai3 lantai32 = new lantai3();
         addObject(lantai32,938,146);
         
@@ -123,6 +121,9 @@ public class lv3 extends grupLvl
         lantai4 lantai414 = new lantai4();
         addObject(lantai414,582,397);
         
+        doorlv3 doorlv3 = new doorlv3();
+        addObject(doorlv3,910,60);
+
         
     }
     
