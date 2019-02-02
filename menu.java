@@ -26,10 +26,12 @@ public class menu extends World
     {
 
         play play = new play();
-        addObject(play,285,509);
-        play.setLocation(285,509);
+        addObject(play,185,500);
+
         howtoplay howtoplay = new howtoplay();
-        addObject(howtoplay,677,500);
+        addObject(howtoplay,497,500);
+        about about = new about();
+        addObject(about,806,500);
     }
 
    

@@ -20,7 +20,7 @@ public class lv3 extends grupLvl
         //prepare();
         prepare();
         stopped();
-        started();
+       started();
     }
 
     /**
@@ -61,7 +61,7 @@ public class lv3 extends grupLvl
         addObject(lantai,419,579); 
 
         player player = new player();
-        addObject(player,162,508);
+        addObject(player,882,498);
 
         lantai3 lantai3 = new lantai3();
         addObject(lantai3,120,148);

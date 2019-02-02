@@ -97,8 +97,8 @@ public class hantu extends objmusuh
         if (speed == 0)
         {
             setImage(eating1);
-            // if(animationcount % 12 == 0);
-            // mamam();
+            if(animationcount % 12 == 0);
+            mamam();
         }
     }
 
@@ -137,39 +137,39 @@ public class hantu extends objmusuh
     
     
     //animation thing
-    // public void mamam()
-    // {
-        // if(frame == 6)
-        // {
-            // setImage(eating2);
-        // }
-        // if(frame == 7)
-        // {
-            // setImage(eating2);
-        // }
-        // if(frame == 8)
-        // {
-            // setImage(eating2);
-        // }
-        // if(frame == 9)
-        // {
-            // setImage(eating2);
-        // }
-        // if(frame == 10)
-        // {
-            // setImage(eating2);
-        // }
-        // if(frame == 11) 
-        // {
-            // setImage(eating2);
+    public void mamam()
+    {
+        if(frame == 6)
+        {
+            setImage(eating2);
+        }
+        if(frame == 7)
+        {
+            setImage(eating2);
+        }
+        if(frame == 8)
+        {
+            setImage(eating2);
+        }
+        if(frame == 9)
+        {
+            setImage(eating2);
+        }
+        if(frame == 10)
+        {
+            setImage(eating2);
+        }
+        if(frame == 11) 
+        {
+            setImage(eating2);
 
-        // }
-        // if(frame == 12) 
-        // {
-            // setImage(eating2);
-            // frame = 0;
-        // }
-        // frame++;
-    // }
+        }
+        if(frame == 12) 
+        {
+            setImage(eating2);
+            frame = 0;
+        }
+        frame++;
+    }
 
 }

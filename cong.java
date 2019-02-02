@@ -29,7 +29,7 @@ public class cong extends treespawn
     
     public void tembok()
     {
-        if (getX() >= 899)
+        if (getX() >= 948)
         {
             getWorld().removeObject(this);
         }

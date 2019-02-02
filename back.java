@@ -20,7 +20,7 @@ public class back extends buton
     public void act() 
     {
        if(Greenfoot.mouseClicked(this)){
-            ((tutorial)getWorld()).stopped();
+            // ((tutorial)getWorld()).stopped();
             World Start = getWorld();
             Start = new menu();
             Greenfoot.setWorld(Start);

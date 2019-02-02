@@ -40,12 +40,16 @@ public class player extends karakter
     private static final GreenfootImage lar3 = new GreenfootImage("humanr3.png");
     private static final GreenfootImage lar4 = new GreenfootImage("humanr3.5.png");
     private static final GreenfootImage lar5 = new GreenfootImage("humanr4.png");
+    private static final GreenfootImage lar6 = new GreenfootImage("humanr5.png");
+    private static final GreenfootImage lar7 = new GreenfootImage("humanr6.png");
     
     private static final GreenfootImage lal1 = new GreenfootImage("humanl1.png");
     private static final GreenfootImage lal2 = new GreenfootImage("humanl2.png");
     private static final GreenfootImage lal3 = new GreenfootImage("humanl3.png");
     private static final GreenfootImage lal4 = new GreenfootImage("humanl3.5.png");
     private static final GreenfootImage lal5 = new GreenfootImage("humanl4.png");
+    private static final GreenfootImage lal6 = new GreenfootImage("humanl5.png");
+    private static final GreenfootImage lal7 = new GreenfootImage("humanl6.png");
     
     private static final GreenfootImage potor = new GreenfootImage("humanpicr.png");
     private static final GreenfootImage potol = new GreenfootImage("humanpicl.png");
@@ -78,7 +82,7 @@ public class player extends karakter
         portal();
         
         
-        if(!dilantai() && getY()>(getWorld().getHeight()-getImage().getHeight())){
+        if(getY()> 588){
             grupLvl dunia = (grupLvl)getWorld();
             dunia.setop=true;
             dunia.selese();
@@ -279,49 +283,78 @@ public class player extends karakter
         {
             setImage(lar1);
         }
-        if(framelari == 6)
+        if(framelari == 10)
         {
             setImage(lar2);
         }
-        if(framelari == 12)
+        if(framelari == 20)
         {
             setImage(lar3);
         }
-        if(framelari == 18)
+        if(framelari == 30)
         {
             setImage(lar4);
         }
-        if(framelari == 24) 
+        if(framelari == 40) 
         {
-            setImage(lar5);
+            setImage(lar5);            
+        }
+        if(framelari == 50) 
+        {
+            setImage(lar6);            
+        }
+        if(framelari == 60) 
+        {
+            setImage(lar4);
+        }
+        if(framelari == 70) 
+        {
+            setImage(lar7);
+        }
+        if(framelari == 80) 
+        {
             framelari = 0;
         }
         framelari++;
     }
     public void larikiri()
     {
-        
         if(framelari == 1)
         {
             setImage(lal1);
         }
-        if(framelari == 6)
+        if(framelari == 10)
         {
             setImage(lal2);
         }
-        if(framelari == 12)
+        if(framelari == 20)
         {
             setImage(lal3);
         }
-        if(framelari == 18)
+        if(framelari == 30)
         {
             setImage(lal4);
         }
-        if(framelari == 24) 
+        if(framelari == 40) 
         {
-            setImage(lal5);
+            setImage(lal5);            
+        }
+        if(framelari == 50) 
+        {
+            setImage(lal6);            
+        }
+        if(framelari == 60) 
+        {
+            setImage(lal4);
+        }
+        if(framelari == 70) 
+        {
+            setImage(lal7);            
+        }
+        if(framelari == 80) 
+        {
             framelari = 0;
         }
         framelari++;
-    }
+    }   
 }
