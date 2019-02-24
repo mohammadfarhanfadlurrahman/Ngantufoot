@@ -14,7 +14,7 @@ public class grupLvl extends World
 
     private int waktu = 0;
 
-    GreenfootSound Overgame = new GreenfootSound("gameover.wav");
+    //GreenfootSound Overgame = new GreenfootSound("gameover.wav");
     GreenfootSound BGM = new GreenfootSound("bgsound.wav");
 
     private Label labelWaktu = new Label(" ", 50);
